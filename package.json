@@ -12,7 +12,7 @@
     "prepublishOnly": "echo \"\\n\\nIt seems like you are trying to publish the Raycast extension to npm.\\n\\nIf you did intend to publish it to npm, remove the \\`prepublishOnly\\` script and rerun \\`npm publish\\` again.\\nIf you wanted to publish it to the Raycast Store instead, use \\`npm run publish\\` instead.\\n\\n\" && exit 1"
   },
   "dependencies": {
-    "@raycast/api": "^1.103.0",
+    "@raycast/api": "^1.104.19",
     "@raycast/utils": "^2.2.1"
   },
   "devDependencies": {
@@ -29,15 +29,13 @@
       "mode": "view",
       "name": "search-memes",
       "title": "Search MemeStash",
-      "description": "Search your MemeStash library and paste the selected image into the frontmost app.",
-      "subtitle": "MemeStash"
+      "description": "Search your MemeStash library and paste the selected image into the frontmost app."
     },
     {
       "mode": "view",
       "name": "add-to-memestash",
       "title": "Add to MemeStash",
-      "description": "Add an image to your MemeStash library with a name and keywords.",
-      "subtitle": "MemeStash"
+      "description": "Add an image to your MemeStash library with a name and keywords."
     }
   ],
   "preferences": [
